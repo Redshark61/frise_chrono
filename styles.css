@@ -233,4 +233,42 @@ body {
     left: 0%;
   }
 }
+
+.title_container {
+  position: relative;
+}
+
+.title {
+  font-size: 60px;
+  width: 80vw;
+  margin: 1rem auto 3rem auto;
+  padding-bottom: 3vh;
+  text-align: center;
+  color: #ddd;
+  border-bottom: 1px solid #ff9f55;
+}
+
+.beginning {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -10px;
+  height: 5px;
+  width: 20px;
+  background: white;
+  z-index: 2;
+}
+
+.arrow {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -10px;
+  height: 20px;
+  width: 20px;
+  background: white;
+  z-index: 2;
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+          clip-path: polygon(100% 0, 0 0, 50% 100%);
+}
 /*# sourceMappingURL=styles.css.map */
